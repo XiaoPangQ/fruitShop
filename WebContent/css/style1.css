@@ -1,0 +1,342 @@
+li{ list-style: none}
+a{text-decoration: none}
+img{width: 100%;height: 100%}
+/*头部模块制作*/
+header{
+    width: 100%;
+    height:160px;
+    background-color: white;
+}
+.biglogo{
+    width: 270px;
+    height: 130px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.biglogo img{
+    width: 100%;
+    height: 100%;
+}
+header>img{
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    height: 80px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.logo{
+    position: absolute;
+    left: -10px;
+}
+#search-input{
+    position: absolute;
+    left: 750px;
+    top: 75px;
+}
+#search-frame{
+    width: 400px;
+    height: 36px;
+    border: 2px solid #FF0000;
+    font-size: 17px;
+    outline: none;
+    margin-right: 10px;
+}
+#search-but{
+    position: absolute;
+    left:auto;
+    top: auto;
+    width: 90px;
+    height: 40px;
+    font-size: 17px;
+    color: white;
+    background-color: #FF0000;
+    border: #FF0000;
+}
+#search-but:hover{
+    background-color: #e20000;
+    cursor:pointer;
+}
+#buy{
+    position: absolute;
+    right: 120px;
+    top: 75px;
+    width: 120px;
+    height: 38px;
+    background-color: #f5f5f5;
+    border: 1px solid #d4d4d4;
+}
+#buy a{
+    line-height: 38px;
+    padding-left: 40px;
+    display: block;
+    font-size: 4px;
+    color: #000;
+}
+#buy a:hover{
+    background-color: white;
+}
+#buy img{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    height: 15px;
+    width: 15px;
+}
+/*头部模块制作结束*/
+
+/*中间模块制作*/
+.main{
+    margin-top: 30px;
+    height: 2400px;
+}
+.nav{
+    width: 220px;
+    height: 2150px;
+    float: left;
+    margin-left: 40px;
+    border:1px solid gainsboro;
+}/*中间模块侧边广告导航栏*/
+.nav_title{
+    width: 100%;
+    height: 40px;
+}
+.nav h3{
+    float: left;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.nav h5{
+    float: right;
+    margin-right: 5px;
+    margin-top: 15px;
+    color: gainsboro;
+}
+.nav_list{
+    width: 200px;
+    height: 1800px;
+    margin-left: 10px;
+}
+.nav_hd{
+    width: 200px;
+    height: 350px;
+}
+.image{
+    height: 200px;
+    width: 200px;
+}
+.price{
+    text-align: left;
+    height: 30px;
+    width: 180px;
+    margin-top: 25px;
+    color: red;
+    font-size: large;
+}
+.nav_list a{
+    height: 40px;
+    width: 180px;
+    color: black;
+}
+.nav_list a:hover{color: red}
+.content{
+    width: 180px;
+    height: 20px;
+    margin-top: 10px;
+}/*中间模块侧边广告导航栏结束*/
+.fruit_list{
+    width: 1200px;
+    height: 3000px;
+    float: left;
+    padding-top: 10px;
+}/*中间模块水果列表栏目*/
+.fruit_list ul li{
+    width: 220px;
+    height: 470px;
+    float: left;
+    margin-right:12px;
+}
+.fruit_img{
+    width: 200px;
+    height: 200px;
+    padding-left: 11px;
+    padding-top: 10px;
+    position: relative;
+}
+.mask{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    background-color: yellow;
+    top: 10px;
+    left: 11px;
+    opacity: 0.3;
+    cursor: move;
+    border: 1px solid gainsboro;
+}
+.big{
+    position: absolute;
+    left: 300px;
+    top: 10px;
+    width: 400px;
+    height: 500px;
+    z-index: 999;
+}
+.big img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.fruit_img img{
+    width: 100%;
+    height: 100%;
+}
+.fruit_price{
+    width: 100%;
+    height: 50px;
+    color: red;
+    font-size: 120%;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.fruit_text{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+    padding-left: 5px;
+   
+}
+.fruit_text a{
+    color: grey;
+}
+.fruit_text a:hover{
+    color: red;
+}
+.fruit_judge{
+    width: 100%;
+    height: 25px;
+    color: lightgray;
+    padding-left: 12px;
+    margin-top:10px
+}
+.fruit_shop{
+    color: darkgrey;
+    padding-left: 12px;
+    margin-top: 5px;
+    width: 100%;
+    height: 40px;
+}
+.fruit_complement{
+    height: 50px;
+}
+.box1{/*自营*/
+    height: 23px;
+    width: 40px;
+    background-color: red;
+    border-radius: 5px/5px;
+    color: white;
+    padding-left: 5px;
+    float: left;
+    margin-right: 5px;
+}
+.box2{/*本地仓*/
+    height: 23px;
+    width: 55px;
+    background-color: red;
+    border-radius: 5px/5px;
+    color: white;
+    padding-left: 5px;
+    float: left;
+    margin-right: 5px;
+}
+.box3{/*品质溯源*/
+     height: 23px;
+     width: 69px;
+     background-color: lawngreen;
+     border-radius: 5px/5px;
+     color: white;
+     padding-left: 5px;
+     float: left;
+     margin-right: 5px;
+ }
+.box4{/*品质认证*/
+     height: 23px;
+     width: 69px;
+     background-color: blueviolet;
+     border-radius: 5px/5px;
+     color: white;
+     padding-left: 5px;
+     float: left;
+     margin-right: 5px;
+ }
+.box5{/*/门店有售*/
+    height: 23px;
+    width: 69px;
+    background-color: dodgerblue;
+    border-radius: 5px/5px;
+    color: white;
+    padding-left: 5px;
+    float: left;
+    margin-right: 5px;
+}
+.box6{/*厂商配送*/
+    height: 23px;
+    width: 69px;
+    background-color: red;
+    border-radius: 5px/5px;
+    color: white;
+    padding-left: 5px;
+    float: left;
+    margin-right: 5px;
+}/*中间模块水果列表栏目结束*/
+/*中间模块结束*/
+
+/*底部模块制作*/
+footer{
+    height: 500px;
+    background-color: gainsboro;
+}
+.mod_service{
+    height: 40px;
+    border-bottom: 1px solid darkgray;
+    padding-bottom: 35px;
+}
+.mod_service ul li{
+    width: 300px;
+    height: 50px;
+    float: left;
+    padding-left: 60px;
+}
+.mod_service ul li h5{
+    width: 55px;
+    height: 55px;
+    float: left;
+    margin-right: 5px;
+	padding-top: 8px;
+}
+.s1 h2{ padding-top: 19px; font-size: 20px; }
+.mod_help{
+    height: 240px;
+    border-bottom: 1px solid darkgray;
+    padding-top: 30px;
+    padding-left: 150px;
+}
+.mod_help dl{
+    float: left;
+    margin-right: 180px;
+}
+.mod_help dl dd{
+    line-height: 30px;
+    color: dimgrey;
+}
+.mod_copyright{
+    padding-top: 20px;
+    text-align: center;
+    color: dimgrey;
+    line-height: 30px;
+}
+footer img{
+	width: 100%;
+	height: 100%;
+}
+/*底部模块制作结束*/

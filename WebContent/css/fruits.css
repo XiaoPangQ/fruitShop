@@ -1,0 +1,198 @@
+@charset "utf-8";
+ul,li{
+	list-style: none;
+	margin:0; padding:0;
+	list-style-type:none; 
+}
+a{
+	text-decoration: none;
+}
+
+.f_show{
+	width: 1000px;
+	height:100%;
+	background-color: #fff8f8;
+	margin:0 auto;
+	padding-top:10px;
+	padding-left:30px;
+}
+
+.f_photo{
+	float: left;
+}
+.f_photo img{
+	width: 350px;
+	height: 350px;
+}
+#photolist{
+	margin-top: 360px;
+	cursor: pointer;
+	
+}
+
+#photolist li{
+	float: left;
+	width: 50px;
+	height: 50px;
+	padding-right: 25px;
+}
+#photolist li img{
+	width: 50px;
+	height:50px;
+	border: 2px solid #e2eaf0;
+}
+#photolist li img:hover{
+	width: 55px;
+	height:55px;
+}
+.f_information{
+	width: 600px;
+	height: 350px;
+	background-color: white;
+	float: left;
+	margin-left: 20px;
+}
+#trade_name{
+	font-size: 16px;
+	color:crimson;
+	
+}
+#slogan{
+	font-size: 14px;
+	color: red;
+	font-family:symbol;
+}
+.f_price{
+	height: 80px;
+	background-color: aliceblue;
+	padding-left: 15px;
+}
+#price1,#price2{
+	color: darkgray;
+	font-size: 14px;
+}
+#proPrice{
+	color: red;
+	margin-left: 10px;
+	font-size: 24px;
+	font-family: Microsoft Yahei;
+}
+#promotion{
+	color: gray;
+	font-weight: 400;
+	margin-left: 10px;
+}
+.f_delivery{
+	height: 174px;
+	background-color:#fcfcfc;
+}
+.place{
+	padding-top: 10px;
+	padding-left: 15px;
+}
+
+.place select{
+	color: gray;
+	border:1px solid gray;
+}
+
+ul,li{ }
+.counter li{
+	float:left; 
+	list-style-type:none; 
+	width:30px;
+	height:40px; 
+	text-align:center; 
+	line-height:40px; 
+	border:1px solid #FF4500;
+	background-color:white
+}
+.counter li input{
+	font-size:25px; 
+	width:100%; 
+	height:100%; 
+	outline:none; 
+	-webkit-appearance:none; 
+	background:none; 
+	margin:0; 
+	padding:0; 
+	border: 1px solid transparent;
+	border-radius: 0;
+	text-align: center;
+}
+#count{
+	width: 60px;
+	border-left:hidden;
+	border-right:hidden; 
+}
+#shuliang{
+	font-size: 14px;
+	color:darkgray;
+	border: 0;
+	padding-right: 10px;
+}
+#buycar{
+	width: 120px;
+	height: 42px;
+	margin-left: 20px;
+	font-size: 16px;
+	font-weight: 900;
+	color:orangered;
+	border:2px solid #FF4500;
+	background-color: white;
+	cursor: pointer;
+}
+#buycar:hover{
+	color: white;
+	background-color:#FF4500;
+	
+}
+
+.moreinformation{
+	margin-top: 450px;
+	width: 980px;
+	height:100%;
+	background-color:whitesmoke;
+}
+#label{
+	margin-left:100px;
+}
+#label li{
+	float: left;
+	width: 187px;
+	height: 30px;
+	text-align: center;
+	line-height:20px;
+	padding-top:10px;
+	color: gray;
+	letter-spacing: 2px;
+}
+#label li:hover{
+	color:#FF4500;
+	cursor: pointer;
+}
+	
+#mark{
+	background-color:#FF4500;
+}
+
+#jieshao{
+	margin-left:100px;
+	display:block;
+}
+#pack{
+	padding-top: 50px;
+	display:none;
+}
+#pack p{
+	font-size: 14px;
+}
+#shouhou{
+	margin-left:100px;
+	display: none;
+}
+#evaluate{
+	padding-top:100px;
+	margin-left:90px;
+	display:none ;
+}
